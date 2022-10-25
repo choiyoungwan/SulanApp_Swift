@@ -7,15 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7028D9A28B4C37D0043153E /* UnityEmbedded.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7028D9928B4C37D0043153E /* UnityEmbedded.swift */; };
+		D7028D9C28B4C5450043153E /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7028D9B28B4C5450043153E /* RootTabBarController.swift */; };
+		D7028DA328B7BC550043153E /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7028DA228B7BC550043153E /* SwiftUIView.swift */; };
+		D7028DA528B7BF090043153E /* UIWindowCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7028DA428B7BF090043153E /* UIWindowCustom.swift */; };
+		D7028DA728B7BF500043153E /* UnityBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7028DA628B7BF500043153E /* UnityBridge.swift */; };
+		D7028DA928B7C16B0043153E /* ExamSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7028DA828B7C16B0043153E /* ExamSwiftViewController.swift */; };
 		D712E5F12891353300529833 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712E5F02891353300529833 /* AppDelegate.swift */; };
 		D712E5F32891353300529833 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712E5F22891353300529833 /* SceneDelegate.swift */; };
 		D712E5F52891353300529833 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D712E5F42891353300529833 /* ViewController.swift */; };
 		D712E5F82891353300529833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D712E5F62891353300529833 /* Main.storyboard */; };
 		D712E5FA2891353500529833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D712E5F92891353500529833 /* Assets.xcassets */; };
 		D712E5FD2891353500529833 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D712E5FB2891353500529833 /* LaunchScreen.storyboard */; };
+		D72CA4D22897A6230024430C /* SignAgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72CA4D12897A6230024430C /* SignAgeViewController.swift */; };
+		D72CA4D42897E0410024430C /* SignSexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72CA4D32897E0410024430C /* SignSexViewController.swift */; };
+		D72CA4D62897E0520024430C /* SignMbtiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72CA4D52897E0520024430C /* SignMbtiViewController.swift */; };
+		D72CA4D82897E06A0024430C /* SignProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72CA4D72897E06A0024430C /* SignProfileViewController.swift */; };
+		D72CA4DA2897E0780024430C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72CA4D92897E0780024430C /* LoginViewController.swift */; };
+		D73372E728B3708C00DB3299 /* Pods_Sulan_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D73372E628B3708C00DB3299 /* Pods_Sulan_App.framework */; };
+		D73372E828B3708C00DB3299 /* Pods_Sulan_App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D73372E628B3708C00DB3299 /* Pods_Sulan_App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D738B52128A1997D00B35DF6 /* ImageFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738B52028A1997D00B35DF6 /* ImageFileManager.swift */; };
+		D76557C228BCB5C9005F13EC /* SwiftExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76557C128BCB5C9005F13EC /* SwiftExam.swift */; };
+		D765580628C1DDD9005F13EC /* Unity_Swft.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765580528C1DDD8005F13EC /* Unity_Swft.swift */; };
+		D765580828C1DE7B005F13EC /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765580728C1DE7B005F13EC /* ModalView.swift */; };
+		D76FF92228A91AFA005139EA /* ExamLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76FF92128A91AFA005139EA /* ExamLoginViewController.swift */; };
+		D79A7A2728AF4ACD0050AD26 /* SettiongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79A7A2628AF4ACD0050AD26 /* SettiongViewController.swift */; };
+		D7BBE6E228AA64F5003A98BF /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BBE6E128AA64F5003A98BF /* CharacterViewController.swift */; };
+		D7BBE6E428AC22A1003A98BF /* ModifyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BBE6E328AC22A1003A98BF /* ModifyProfileViewController.swift */; };
+		D7C8D0D028A38B8500E0932B /* ExamImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C8D0CF28A38B8500E0932B /* ExamImgViewController.swift */; };
+		D7C99DF528AE7DA600C1E286 /* Unity_GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C99DF428AE7DA600C1E286 /* Unity_GameViewController.swift */; };
+		D7C99DFD28AEB12F00C1E286 /* UnityConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C99DFC28AEB12F00C1E286 /* UnityConnect.swift */; };
+		D7D6B8F128A62595005A512F /* MbtiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D6B8F028A62595005A512F /* MbtiViewController.swift */; };
+		D7F2882729069CAE003F7BCE /* ExamMbti.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2882629069CAE003F7BCE /* ExamMbti.swift */; };
+		D7F2882929079D77003F7BCE /* CollectionViewExam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2882829079D77003F7BCE /* CollectionViewExam.swift */; };
+		D7F2882C2907C287003F7BCE /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D7F2882A2907C287003F7BCE /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D7F2883229080916003F7BCE /* UnityEmbeddedSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F2883129080916003F7BCE /* UnityEmbeddedSwift.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D7C99DFB28AEB0DB00C1E286 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D73372E828B3708C00DB3299 /* Pods_Sulan_App.framework in Embed Frameworks */,
+				D7F2882C2907C287003F7BCE /* UnityFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BBBD34134A33CF5913EA3755 /* Pods-Sulan_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sulan_App.release.xcconfig"; path = "Target Support Files/Pods-Sulan_App/Pods-Sulan_App.release.xcconfig"; sourceTree = "<group>"; };
+		D7028D9928B4C37D0043153E /* UnityEmbedded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityEmbedded.swift; sourceTree = "<group>"; };
+		D7028D9B28B4C5450043153E /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		D7028DA228B7BC550043153E /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		D7028DA428B7BF090043153E /* UIWindowCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindowCustom.swift; sourceTree = "<group>"; };
+		D7028DA628B7BF500043153E /* UnityBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityBridge.swift; sourceTree = "<group>"; };
+		D7028DA828B7C16B0043153E /* ExamSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamSwiftViewController.swift; sourceTree = "<group>"; };
 		D712E5ED2891353300529833 /* Sulan_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sulan_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D712E5F02891353300529833 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D712E5F22891353300529833 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +75,32 @@
 		D712E5F92891353500529833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D712E5FC2891353500529833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D712E5FE2891353500529833 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72CA4D12897A6230024430C /* SignAgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAgeViewController.swift; sourceTree = "<group>"; };
+		D72CA4D32897E0410024430C /* SignSexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignSexViewController.swift; sourceTree = "<group>"; };
+		D72CA4D52897E0520024430C /* SignMbtiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignMbtiViewController.swift; sourceTree = "<group>"; };
+		D72CA4D72897E06A0024430C /* SignProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignProfileViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		D72CA4D92897E0780024430C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D73372E628B3708C00DB3299 /* Pods_Sulan_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Sulan_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D737661528B3A8410034218D /* Sulan_App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sulan_App-Bridging-Header.h"; sourceTree = "<group>"; };
+		D738B52028A1997D00B35DF6 /* ImageFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFileManager.swift; sourceTree = "<group>"; };
+		D76557C128BCB5C9005F13EC /* SwiftExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExam.swift; sourceTree = "<group>"; };
+		D765580528C1DDD8005F13EC /* Unity_Swft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity_Swft.swift; sourceTree = "<group>"; };
+		D765580728C1DE7B005F13EC /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		D76FF92128A91AFA005139EA /* ExamLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamLoginViewController.swift; sourceTree = "<group>"; };
+		D79A7A2628AF4ACD0050AD26 /* SettiongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettiongViewController.swift; sourceTree = "<group>"; };
+		D7A4BAAD28C495F70078D0B8 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BBE6E128AA64F5003A98BF /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		D7BBE6E328AC22A1003A98BF /* ModifyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyProfileViewController.swift; sourceTree = "<group>"; };
+		D7C8D0CF28A38B8500E0932B /* ExamImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamImgViewController.swift; sourceTree = "<group>"; };
+		D7C99DF428AE7DA600C1E286 /* Unity_GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity_GameViewController.swift; sourceTree = "<group>"; };
+		D7C99DFC28AEB12F00C1E286 /* UnityConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityConnect.swift; sourceTree = "<group>"; };
+		D7D6B8F028A62595005A512F /* MbtiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbtiViewController.swift; sourceTree = "<group>"; };
+		D7F2882629069CAE003F7BCE /* ExamMbti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamMbti.swift; sourceTree = "<group>"; };
+		D7F2882829079D77003F7BCE /* CollectionViewExam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExam.swift; sourceTree = "<group>"; };
+		D7F2882A2907C287003F7BCE /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F2882F2907C5B3003F7BCE /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F2883129080916003F7BCE /* UnityEmbeddedSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityEmbeddedSwift.swift; sourceTree = "<group>"; };
+		E982AFC9C509AE2DFEBA2697 /* Pods-Sulan_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sulan_App.debug.xcconfig"; path = "Target Support Files/Pods-Sulan_App/Pods-Sulan_App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +108,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D73372E728B3708C00DB3299 /* Pods_Sulan_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4442F4C1733A05C539FA740E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E982AFC9C509AE2DFEBA2697 /* Pods-Sulan_App.debug.xcconfig */,
+				BBBD34134A33CF5913EA3755 /* Pods-Sulan_App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B45402EE2F53FFBB73B5CFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F2882F2907C5B3003F7BCE /* UnityFramework.framework */,
+				D7F2882A2907C287003F7BCE /* UnityFramework.framework */,
+				D7A4BAAD28C495F70078D0B8 /* UnityFramework.framework */,
+				D73372E628B3708C00DB3299 /* Pods_Sulan_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D712E5E42891353300529833 = {
 			isa = PBXGroup;
 			children = (
 				D712E5EF2891353300529833 /* Sulan_App */,
 				D712E5EE2891353300529833 /* Products */,
+				4442F4C1733A05C539FA740E /* Pods */,
+				B45402EE2F53FFBB73B5CFB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +156,7 @@
 		D712E5EF2891353300529833 /* Sulan_App */ = {
 			isa = PBXGroup;
 			children = (
+				D765580728C1DE7B005F13EC /* ModalView.swift */,
 				D712E5F02891353300529833 /* AppDelegate.swift */,
 				D712E5F22891353300529833 /* SceneDelegate.swift */,
 				D712E5F42891353300529833 /* ViewController.swift */,
@@ -63,6 +164,32 @@
 				D712E5F92891353500529833 /* Assets.xcassets */,
 				D712E5FB2891353500529833 /* LaunchScreen.storyboard */,
 				D712E5FE2891353500529833 /* Info.plist */,
+				D72CA4D92897E0780024430C /* LoginViewController.swift */,
+				D72CA4D12897A6230024430C /* SignAgeViewController.swift */,
+				D72CA4D32897E0410024430C /* SignSexViewController.swift */,
+				D72CA4D52897E0520024430C /* SignMbtiViewController.swift */,
+				D7BBE6E128AA64F5003A98BF /* CharacterViewController.swift */,
+				D72CA4D72897E06A0024430C /* SignProfileViewController.swift */,
+				D738B52028A1997D00B35DF6 /* ImageFileManager.swift */,
+				D7C99DFC28AEB12F00C1E286 /* UnityConnect.swift */,
+				D7028DA628B7BF500043153E /* UnityBridge.swift */,
+				D737661528B3A8410034218D /* Sulan_App-Bridging-Header.h */,
+				D7BBE6E328AC22A1003A98BF /* ModifyProfileViewController.swift */,
+				D7F2882629069CAE003F7BCE /* ExamMbti.swift */,
+				D7C99DF428AE7DA600C1E286 /* Unity_GameViewController.swift */,
+				D7C8D0CF28A38B8500E0932B /* ExamImgViewController.swift */,
+				D76FF92128A91AFA005139EA /* ExamLoginViewController.swift */,
+				D79A7A2628AF4ACD0050AD26 /* SettiongViewController.swift */,
+				D7028D9928B4C37D0043153E /* UnityEmbedded.swift */,
+				D7028D9B28B4C5450043153E /* RootTabBarController.swift */,
+				D7028DA228B7BC550043153E /* SwiftUIView.swift */,
+				D7028DA428B7BF090043153E /* UIWindowCustom.swift */,
+				D7028DA828B7C16B0043153E /* ExamSwiftViewController.swift */,
+				D76557C128BCB5C9005F13EC /* SwiftExam.swift */,
+				D765580528C1DDD8005F13EC /* Unity_Swft.swift */,
+				D7D6B8F028A62595005A512F /* MbtiViewController.swift */,
+				D7F2882829079D77003F7BCE /* CollectionViewExam.swift */,
+				D7F2883129080916003F7BCE /* UnityEmbeddedSwift.swift */,
 			);
 			path = Sulan_App;
 			sourceTree = "<group>";
@@ -74,9 +201,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D712E6012891353500529833 /* Build configuration list for PBXNativeTarget "Sulan_App" */;
 			buildPhases = (
+				52E1A48223A351DEBD84621C /* [CP] Check Pods Manifest.lock */,
 				D712E5E92891353300529833 /* Sources */,
 				D712E5EA2891353300529833 /* Frameworks */,
 				D712E5EB2891353300529833 /* Resources */,
+				9FAEC736B0A3B07ACDF55D2B /* [CP] Embed Pods Frameworks */,
+				939E33734B8D1271D8501C95 /* [CP] Copy Pods Resources */,
+				D7C99DFB28AEB0DB00C1E286 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +230,7 @@
 				TargetAttributes = {
 					D712E5EC2891353300529833 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -133,14 +265,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52E1A48223A351DEBD84621C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sulan_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		939E33734B8D1271D8501C95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sulan_App/Pods-Sulan_App-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sulan_App/Pods-Sulan_App-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sulan_App/Pods-Sulan_App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FAEC736B0A3B07ACDF55D2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sulan_App/Pods-Sulan_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sulan_App/Pods-Sulan_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sulan_App/Pods-Sulan_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D712E5E92891353300529833 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72CA4D42897E0410024430C /* SignSexViewController.swift in Sources */,
+				D72CA4D22897A6230024430C /* SignAgeViewController.swift in Sources */,
+				D7D6B8F128A62595005A512F /* MbtiViewController.swift in Sources */,
+				D7BBE6E228AA64F5003A98BF /* CharacterViewController.swift in Sources */,
 				D712E5F52891353300529833 /* ViewController.swift in Sources */,
+				D7C8D0D028A38B8500E0932B /* ExamImgViewController.swift in Sources */,
+				D72CA4D62897E0520024430C /* SignMbtiViewController.swift in Sources */,
+				D72CA4DA2897E0780024430C /* LoginViewController.swift in Sources */,
+				D765580828C1DE7B005F13EC /* ModalView.swift in Sources */,
+				D72CA4D82897E06A0024430C /* SignProfileViewController.swift in Sources */,
+				D7028DA528B7BF090043153E /* UIWindowCustom.swift in Sources */,
+				D7028D9C28B4C5450043153E /* RootTabBarController.swift in Sources */,
+				D7028D9A28B4C37D0043153E /* UnityEmbedded.swift in Sources */,
 				D712E5F12891353300529833 /* AppDelegate.swift in Sources */,
+				D7C99DF528AE7DA600C1E286 /* Unity_GameViewController.swift in Sources */,
+				D7BBE6E428AC22A1003A98BF /* ModifyProfileViewController.swift in Sources */,
+				D7028DA328B7BC550043153E /* SwiftUIView.swift in Sources */,
+				D7F2882929079D77003F7BCE /* CollectionViewExam.swift in Sources */,
+				D7028DA728B7BF500043153E /* UnityBridge.swift in Sources */,
+				D7C99DFD28AEB12F00C1E286 /* UnityConnect.swift in Sources */,
+				D76557C228BCB5C9005F13EC /* SwiftExam.swift in Sources */,
+				D7F2883229080916003F7BCE /* UnityEmbeddedSwift.swift in Sources */,
+				D765580628C1DDD9005F13EC /* Unity_Swft.swift in Sources */,
+				D738B52128A1997D00B35DF6 /* ImageFileManager.swift in Sources */,
+				D76FF92228A91AFA005139EA /* ExamLoginViewController.swift in Sources */,
 				D712E5F32891353300529833 /* SceneDelegate.swift in Sources */,
+				D7F2882729069CAE003F7BCE /* ExamMbti.swift in Sources */,
+				D7028DA928B7C16B0043153E /* ExamSwiftViewController.swift in Sources */,
+				D79A7A2728AF4ACD0050AD26 /* SettiongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +499,20 @@
 		};
 		D712E6022891353500529833 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E982AFC9C509AE2DFEBA2697 /* Pods-Sulan_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3A5WDCK3RJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sulan_App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 가져오기";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 가져오기";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,6 +526,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sulan-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sulan_App/Sulan_App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,14 +535,20 @@
 		};
 		D712E6032891353500529833 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBD34134A33CF5913EA3755 /* Pods-Sulan_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3A5WDCK3RJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Sulan_App/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "사진 가져오기";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 가져오기";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,6 +562,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Sulan-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Sulan_App/Sulan_App-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
